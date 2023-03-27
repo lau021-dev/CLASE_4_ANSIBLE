@@ -1,0 +1,10 @@
+---
+- name: Asignar variables a hosts
+  hosts: servers
+  gather_facts: no
+  vars_files:
+	- hosts.yaml
+  tasks:
+	- name: Debugging
+  	  debug:
+          var: hostname
