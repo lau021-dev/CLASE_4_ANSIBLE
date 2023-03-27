@@ -1,7 +1,7 @@
 servers:
   hosts:
     server1:
-      ansible_host: [direccion IP]
-      ansible_user: [nombre de usuario SSH]
+      ansible_host: {{direccion IP}}
+      ansible_user: {{nombre de usuario SSH}}
   vars:
-    hostname: [nombre de host]
+    hostname: {{nombre de host}}
