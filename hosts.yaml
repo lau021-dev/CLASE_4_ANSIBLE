@@ -4,4 +4,4 @@ servers:
       ansible_host: {{direccion IP}}
       ansible_user: {{nombre de usuario SSH}}
   vars:
-    hostname: {{nombre de host}}
+    hostname: example.host
